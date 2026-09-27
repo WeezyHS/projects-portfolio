@@ -91,15 +91,15 @@ export const projectItems: PortfolioCase[] = [
     category: "Categoria",
     detail: defaultDetail("projeto"),
   },
-  {
-    slug: "projeto-3",
-    year: "Ano",
-    title: "Nome do projeto",
-    description:
-      "Descreva aqui o projeto, o problema resolvido, sua stack e o resultado.",
-    category: "Categoria",
-    detail: defaultDetail("projeto"),
-  },
+  // {
+  //   slug: "projeto-3",
+  //   year: "Ano",
+  //   title: "Nome do projeto",
+  //   description:
+  //     "Descreva aqui o projeto, o problema resolvido, sua stack e o resultado.",
+  //   category: "Categoria",
+  //   detail: defaultDetail("projeto"),
+  // },
 ];
 
 export function getWorkItem(slug: string) {
